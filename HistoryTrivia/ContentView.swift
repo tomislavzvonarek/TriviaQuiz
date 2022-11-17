@@ -18,7 +18,7 @@ struct ContentView: View {
         ZStack{
             mainColor.ignoresSafeArea()
             VStack{
-                Text("1 / 10")
+                Text("10 / 10")
                     .font(.callout)
                     .multilineTextAlignment(.leading)
                     .padding()
