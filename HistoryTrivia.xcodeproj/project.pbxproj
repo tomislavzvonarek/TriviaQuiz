@@ -11,6 +11,8 @@
 		A42CA1B72909BC6700B95223 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42CA1B62909BC6700B95223 /* ContentView.swift */; };
 		A42CA1B92909BC6800B95223 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A42CA1B82909BC6800B95223 /* Assets.xcassets */; };
 		A42CA1BD2909BC6800B95223 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A42CA1BC2909BC6800B95223 /* Preview Assets.xcassets */; };
+		A4714E322925AAB6004829CC /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4714E312925AAB6004829CC /* Question.swift */; };
+		A4714E3A2925AE1B004829CC /* ChoiceTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4714E392925AE1B004829CC /* ChoiceTextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		A42CA1B82909BC6800B95223 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A42CA1BA2909BC6800B95223 /* HistoryTrivia.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HistoryTrivia.entitlements; sourceTree = "<group>"; };
 		A42CA1BC2909BC6800B95223 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A4714E312925AAB6004829CC /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		A4714E392925AE1B004829CC /* ChoiceTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceTextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +40,8 @@
 		A42CA1A82909BC6700B95223 = {
 			isa = PBXGroup;
 			children = (
+				A4714E312925AAB6004829CC /* Question.swift */,
+				A4714E392925AE1B004829CC /* ChoiceTextView.swift */,
 				A42CA1B32909BC6700B95223 /* HistoryTrivia */,
 				A42CA1B22909BC6700B95223 /* Products */,
 			);
@@ -139,7 +145,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4714E322925AAB6004829CC /* Question.swift in Sources */,
 				A42CA1B72909BC6700B95223 /* ContentView.swift in Sources */,
+				A4714E3A2925AE1B004829CC /* ChoiceTextView.swift in Sources */,
 				A42CA1B52909BC6700B95223 /* HistoryTriviaApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
